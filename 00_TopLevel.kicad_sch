@@ -2,7 +2,191 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "0bf6b9b4-53bd-4089-bfd4-0f1e3590892e")
+	(uuid "c64db839-6158-4db4-bef9-346d0480e987")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 88.9 25.4)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "57114dc7-fe50-4077-9c8a-8011ae6c1cfe")
+		(property "Sheetname" "02_5VReg"
+			(at 88.9 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "02_5VReg.kicad_sch"
+			(at 88.9 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EW.HW.DeskHub1A"
+				(path "/65fce0e0-5101-4e3f-b581-6a8378cbf342/d44490f4-9653-46c1-8023-512c039c6cad"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 25.4)
+		(size 38.1 76.2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "60d3c78f-0941-4884-8601-699528ec835f")
+		(property "Sheetname" "04_USB7206Core"
+			(at 165.1 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "04_USB7206Core.kicad_sch"
+			(at 165.1 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EW.HW.DeskHub1A"
+				(path "/65fce0e0-5101-4e3f-b581-6a8378cbf342/d44490f4-9653-46c1-8023-512c039c6cad"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "80c1267a-1763-438e-a07a-43152d85dd32")
+		(property "Sheetname" "01_PowerInput"
+			(at 25.4 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "01_PowerInput.kicad_sch"
+			(at 25.4 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EW.HW.DeskHub1A"
+				(path "/65fce0e0-5101-4e3f-b581-6a8378cbf342/d44490f4-9653-46c1-8023-512c039c6cad"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 63.5)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e548a581-ec3c-4fe3-bc27-835b96784234")
+		(property "Sheetname" "03_CoreReg"
+			(at 88.9 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "03_CoreReg.kicad_sch"
+			(at 88.9 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EW.HW.DeskHub1A"
+				(path "/65fce0e0-5101-4e3f-b581-6a8378cbf342/d44490f4-9653-46c1-8023-512c039c6cad"
+					(page "6")
+				)
+			)
+		)
+	)
 )
