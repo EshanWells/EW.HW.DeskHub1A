@@ -2,9 +2,55 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 65fce0e0-5101-4e3f-b581-6a8378cbf342)
+	(uuid "65fce0e0-5101-4e3f-b581-6a8378cbf342")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 88.9 50.8)
+		(size 114.3 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d44490f4-9653-46c1-8023-512c039c6cad")
+		(property "Sheetname" "00_TopLevel"
+			(at 88.9 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "00_TopLevel.kicad_sch"
+			(at 88.9 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EW.HW.DeskHub1A"
+				(path "/65fce0e0-5101-4e3f-b581-6a8378cbf342"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
