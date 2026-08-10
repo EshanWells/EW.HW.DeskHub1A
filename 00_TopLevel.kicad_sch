@@ -3,10 +3,30 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "c64db839-6158-4db4-bef9-346d0480e987")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 193.04 114.3) (xy 193.04 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9810530b-5bed-4064-9ba9-607454602c82")
+	)
+	(bus
+		(pts
+			(xy 205.74 114.3) (xy 193.04 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fedeb0aa-cdb8-4a6b-9023-3bdf07efd667")
+	)
 	(sheet
-		(at 88.9 25.4)
+		(at 129.54 101.6)
 		(size 38.1 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +42,7 @@
 		)
 		(uuid "57114dc7-fe50-4077-9c8a-8011ae6c1cfe")
 		(property "Sheetname" "02_5VReg"
-			(at 88.9 24.6884 0)
+			(at 129.54 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +53,7 @@
 			)
 		)
 		(property "Sheetfile" "02_5VReg.kicad_sch"
-			(at 88.9 51.3846 0)
+			(at 129.54 127.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,8 +72,8 @@
 		)
 	)
 	(sheet
-		(at 165.1 25.4)
-		(size 38.1 76.2)
+		(at 205.74 101.6)
+		(size 38.1 88.9)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,7 +88,7 @@
 		)
 		(uuid "60d3c78f-0941-4884-8601-699528ec835f")
 		(property "Sheetname" "04_USB7206Core"
-			(at 165.1 24.6884 0)
+			(at 205.74 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +99,7 @@
 			)
 		)
 		(property "Sheetfile" "04_USB7206Core.kicad_sch"
-			(at 165.1 102.1846 0)
+			(at 205.74 191.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -87,6 +107,76 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USBUP" bidirectional
+			(at 205.74 114.3 180)
+			(uuid "44bbd968-ac6a-41d9-8f2c-7fbc1a5244a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBDN3" bidirectional
+			(at 243.84 139.7 0)
+			(uuid "fc940690-d254-4978-85d6-9531903e70e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBDN4" bidirectional
+			(at 243.84 152.4 0)
+			(uuid "85de505e-4b20-47f5-9eb4-7b6244c79a35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBDN5" bidirectional
+			(at 243.84 165.1 0)
+			(uuid "5cbf7982-5705-4d9a-a519-77d3576219df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBDN1" bidirectional
+			(at 243.84 114.3 0)
+			(uuid "1977b209-d44c-4027-8443-493d9c476682")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBDN2" bidirectional
+			(at 243.84 127 0)
+			(uuid "b94b6313-f397-490a-ae34-fec5b4711785")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBDN6" bidirectional
+			(at 243.84 177.8 0)
+			(uuid "108c6c37-e002-43b1-9018-19a315c6683d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -98,7 +188,7 @@
 		)
 	)
 	(sheet
-		(at 25.4 25.4)
+		(at 66.04 101.6)
 		(size 38.1 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -114,7 +204,7 @@
 		)
 		(uuid "80c1267a-1763-438e-a07a-43152d85dd32")
 		(property "Sheetname" "01_PowerInput"
-			(at 25.4 24.6884 0)
+			(at 66.04 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +215,7 @@
 			)
 		)
 		(property "Sheetfile" "01_PowerInput.kicad_sch"
-			(at 25.4 51.3846 0)
+			(at 66.04 127.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -144,7 +234,7 @@
 		)
 	)
 	(sheet
-		(at 88.9 63.5)
+		(at 129.54 139.7)
 		(size 38.1 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -160,7 +250,7 @@
 		)
 		(uuid "e548a581-ec3c-4fe3-bc27-835b96784234")
 		(property "Sheetname" "03_CoreReg"
-			(at 88.9 62.7884 0)
+			(at 129.54 138.9884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +261,7 @@
 			)
 		)
 		(property "Sheetfile" "03_CoreReg.kicad_sch"
-			(at 88.9 89.4846 0)
+			(at 129.54 165.6846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

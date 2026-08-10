@@ -375,7 +375,28 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "USB2DN": [
+        "USB2DN_DP",
+        "USB2DN_DM"
+      ],
+      "USB3DN": [
+        "USB2DN_DP",
+        "USB2DN_DM",
+        "USB3DN_TXDP",
+        "USB3DN_TXDM",
+        "USB3DN_RXDP",
+        "USB3DN_RXDM"
+      ],
+      "USBUP": [
+        "USB2UP_DP",
+        "USB2UP_DM",
+        "USB3UP_TXDP",
+        "USB3UP_TXDM",
+        "USB3UP_RXDP",
+        "USB3UP_RXDM"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -416,7 +437,7 @@
         "uuid": "65fce0e0-5101-4e3f-b581-6a8378cbf342"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1,#PWR1-48,R1-4,C1-38",
     "variants": []
   },
   "sheets": [
